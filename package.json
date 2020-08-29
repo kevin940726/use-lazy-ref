@@ -1,5 +1,5 @@
 {
-  "name": "use-lazy-ref",
+  "name": "@kevin940726/use-lazy-ref",
   "version": "0.0.0",
   "description": "Like useRef but only lazily initialize once",
   "author": "Kai Hao",
