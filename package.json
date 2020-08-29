@@ -1,0 +1,33 @@
+{
+  "name": "use-lazy-ref",
+  "version": "0.0.0",
+  "description": "Like useRef but only lazily initialize once",
+  "author": "Kai Hao",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/use-lazy-ref.js",
+  "module": "dist/use-lazy-ref.module.js",
+  "unpkg": "dist/use-lazy-ref.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.4.9",
+    "@types/jest": "^26.0.10",
+    "@types/react": "^16.9.48",
+    "jest": "^26.4.2",
+    "microbundle": "^0.12.3",
+    "prettier": "2.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "ts-jest": "^26.3.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
