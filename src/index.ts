@@ -1,6 +1,6 @@
 import { useRef, MutableRefObject } from 'react';
 
-const INITIAL_TAG = Symbol('INITIAL_TAG');
+const INITIAL_TAG = {};
 
 function useLazyRef<T>(initializer: () => T): MutableRefObject<T> {
   const ref = useRef<T | typeof INITIAL_TAG>(INITIAL_TAG);
